@@ -40,8 +40,8 @@ endif (Fortran_COMPILER_NAME MATCHES "gfortran.*")
 include_directories ("${PROJECT_SOURCE_DIR}/modules")
 add_subdirectory (modules) 
 
-include_directories ("${PROJECT_SOURCE_DIR}/programs")
-add_subdirectory (programs) 
+include_directories ("${PROJECT_SOURCE_DIR}/simulations")
+add_subdirectory (simulations) 
 
 # build executables
 set (NMPROGRAMS "fivechain" "fivechain_multi" "singlechain" "singlechain_repeating")
